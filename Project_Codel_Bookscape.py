@@ -58,7 +58,7 @@ def fetch_books(query, max_results=10):
             params={
                 "q": query,
                 "maxResults": max_results,
-                "key": os.getenv('AIzaSyAOJRvXPARiwIu2zAdNae7ubiunTIaNkCY')
+                "key": os.getenv('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
             }
         )
         data = response.json()
